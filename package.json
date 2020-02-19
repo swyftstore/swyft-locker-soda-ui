@@ -1,0 +1,26 @@
+{
+  "name": "Swyft_Soda_Proxy_Example",
+  "version": "1.0.0",
+  "description": "This is a proxy server used for SODA Requests",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Manuel",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "glue": "^5.0.0",
+    "hapi-boom-decorators": "^4.1.1",
+    "hapi-swagger": "^9.1.0",
+    "hoek": "^6.0.2",
+    "inert": "^5.1.0",
+    "joi": "^13.6.0",
+    "moment": "^2.22.2",
+    "node-fetch": "^2.2.0",
+    "path": "^0.12.7",
+    "promise": "^8.0.1",
+    "vision": "^5.4.0"
+  }
+}

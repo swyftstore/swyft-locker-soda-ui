@@ -1,0 +1,53 @@
+{
+    "glueManifest": { 
+        "server": {
+            "port": 8081,
+            "routes" : {
+                "cors":{
+                    "origin": ["*"],
+                    "headers": ["Accept", "Authorization", "Content-Type", "Access-Control-Allow-Origin"],
+                    "additionalHeaders": []
+                }
+            }
+        },
+        "register": {
+            "plugins": [
+                {"plugin": "inert"},
+                {
+                  "plugin": "./routes",
+                  "routes": {
+                    "prefix": "/soda"										
+                  }
+                },
+                {
+                    "plugin": "./ui"                
+                }
+                
+            ]    
+        }
+    },
+    "swagger": {
+        "info": {
+            "title": "SODA Proxy Server",
+            "version": "1.0.0"
+        },
+        "host": "localhost:8081"
+    },    
+    "app" : {
+        "publicKey": "some_very_long_encrypted_api_key",
+        "privateKey": "some-super-long-private-key-encrypted-here"
+    },
+    "services": {
+        "soda": {
+            "host": "https://us-central1-swyft-locker-qa.cloudfunctions.net/retail_integration",
+            "paths": {
+                "findLocations": "/find_locations",
+                "createOrder": "/create_order",
+                "getOrder": "/get_order",
+                "updateOrder": "/update_order",
+                "enrollWebHook": "/enroll_web_hook",
+                "cancelWebHook": "/cancel_web_hook"
+            }
+        }
+    }
+}
