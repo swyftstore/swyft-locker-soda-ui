@@ -11,11 +11,11 @@ This project contains a node.js server and sample HTML UI. The node.js server ac
 ## Deployment Steps
 * Install npm and node. See steps on url below for your specific OS. 
   * <https://www.npmjs.com/get-npm>
-* Navigate to projects folder via command line.
+* Navigate to project's folder via command line.
   * `cd your_path_here/swyft-locker-retail-ui`
 * Download the required libraries. In the command line window enter below.
   * `npm i`
-* Start the node.js server. In the command line window enter below
+* Start the node.js server. In the command line window enter below.
   * `npm run start`
   * If you get an error saying the port is already in use, you can change the desired port via the config.json file in the root of the project
 * Open browser window and navigate to <http://localhost:8081/home> to view the running UI
