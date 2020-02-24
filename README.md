@@ -12,7 +12,7 @@ This project contains a node.js server and sample HTML UI. The node.js server ac
 * Install npm and node. See steps on url below for your specific OS. 
   * <https://www.npmjs.com/get-npm>
 * Navigate to projects folder via command line.
-  * `cd your_path_here/swyft-locker-retail-ui`
+  * `cd your_path_here/swyft-locker-soda-ui`
 * Download the required libraries. In the command line window enter below.
   * `npm i`
 * Start the node.js server. In the command line window enter below

@@ -12,6 +12,7 @@
     "crypto": "^1.0.1",
     "fs": "0.0.1-security",
     "glue": "^5.0.0",
+    "hapi": "^18.1.0",
     "hapi-boom-decorators": "^4.1.1",
     "hapi-swagger": "^9.1.0",
     "hoek": "^6.0.2",
